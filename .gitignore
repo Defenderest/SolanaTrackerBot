@@ -1,0 +1,29 @@
+.aider*
+# Environment variables file
+.env
+
+# User data file
+user_data.json
+
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.vscode/
+.idea/
+```
+
+Теперь обновим `config.py`, чтобы он загружал эти переменные.
+
+```python
+config.py
+<<<<<<< SEARCH
+TELEGRAM_BOT_TOKEN = "OUR_TELEGRAM_BOT_TOKEN"
+
+
+
+DEFAULT_RPC_URL = ""
+.env
